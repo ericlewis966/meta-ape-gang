@@ -1,0 +1,58 @@
+#about-view {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(var(--night-sky), var(--night-sky-2), var(--night-sky-3));
+    font-family: var(--font-family);
+    font-size: var(--body-text);
+    padding: 0px var(--h-p-rl);
+}
+
+#about-view #about-text {
+    color: white;
+    max-width: 800px;
+}
+
+#about-view h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: var(--bold-text);
+}
+
+
+
+@media screen and (max-width:1380px) {
+    #about-view .bunny-in-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about-view #about-text {
+        order: 2;
+        padding-top: var(--h-p-rl);
+    }
+
+    #about-view #about-us {
+        order: 1;
+    }
+}
+
+
+@media screen and (max-width:530px) {
+    #about-view #about-text h1 {
+        font-size: 30px !important;
+    }
+}
+
+
+@media screen and (max-width:370px) {
+    #about-view #about-text h1 {
+        font-size: var(--body-text) !important;
+        text-align: center;
+    }
+
+    #about-view #about-text {
+        font-size: 20px;
+    }
+}

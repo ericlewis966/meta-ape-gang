@@ -1,0 +1,207 @@
+.modal-box {
+  position: absolute;
+  background-image: url("../../assets/image/roadmap/Roadmap screen.png");
+  background-size: 100% 100%;
+  max-width: 500px;
+  height: auto;
+  padding: 60px 40px;
+  padding-right: 40px;
+  padding-top: 0px;
+  text-align: left;
+  color: white;
+  z-index: 9;
+}
+
+.modal-box h2 {
+  font-size: var(--roadmap-header-text);
+  font-weight: var(--bold-text);
+  width: 100%;
+  text-align: center;
+  /* padding: 0px !important; */
+  text-transform: uppercase;
+  color: white;
+}
+
+#modal-close {
+  position: absolute;
+  right: 50px;
+  top: 30px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.modalfadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+#modal-1 {
+  top: -80px;
+  left: 480px;
+}
+
+#modal-2 {
+  top: 50px;
+  left: 200px;
+}
+
+#modal-3 {
+  top: -90px;
+  left: 700px;
+}
+
+#modal-4 {
+  top: 150px;
+  left: 650px;
+}
+
+#modal-5 {
+  top: 130px;
+  left: 780px;
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.modalZoomOut {
+  -webkit-animation-name: zoomOut;
+  animation-name: zoomOut;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes zoomOut {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes zoomOut {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 1640px) {
+  #modal-1 {
+    top: -60px;
+    left: 480px;
+  }
+
+  #modal-5 {
+    top: 130px;
+    left: 580px;
+  }
+  #modal-4 {
+    top: 150px;
+    left: 450px;
+  }
+  .modal-box h1 {
+    font-size: var(--h-rwd-text) !important;
+  }
+}
+@media screen and (max-width: 1240px) {
+  #modal-1 {
+    top: -60px;
+    left: 280px;
+  }
+
+  #modal-5 {
+    top: 130px;
+    left: 350px;
+  }
+  #modal-3 {
+    left: 380px;
+  }
+  #modal-2 {
+    left: 130px;
+  }
+  #modal-4 {
+    top: 150px;
+    left: 350px;
+  }
+  .modal-box h1 {
+    /* font-size: var(--h-rwd-text) !important; */
+  }
+}
+@media screen and (max-width: 940px) {
+  #modal-1 {
+    top: 0px;
+    left: unset;
+    right: 0px;
+  }
+  #modal-2 {
+    top: 100px;
+    left: unset;
+    right: 0px;
+  }
+  #modal-3 {
+    top: 200px;
+    left: unset;
+    right: 0px;
+  }
+  #modal-4 {
+    top: 300px;
+    left: unset;
+    right: 0px;
+  }
+  #modal-5 {
+    top: 400px;
+    left: unset;
+    right: 0px;
+  }
+  .modal-box h1 {
+    font-size: var(--h-rwd-text) !important;
+  }
+}

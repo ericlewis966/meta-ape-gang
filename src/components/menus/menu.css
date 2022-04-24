@@ -1,0 +1,12 @@
+.bunny-menu{
+    list-style: none;
+    font-size: var(--body-text);
+    gap: 40px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+a {
+    color: #ffffff !important;
+    text-decoration: none;
+}

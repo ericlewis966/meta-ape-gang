@@ -1,0 +1,114 @@
+/*API Font, Antd, Animate*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css");
+@import "~antd/dist/antd.css";
+
+/* Global CSS Variable */
+
+* {
+  font-family: "XoloniumRegular";
+}
+
+:root {
+  --border-width: 3px;
+  --bold-text: 800;
+  --semi-bold: 700;
+
+  --header-text: 45px;
+  --roadmap-header-text: 25px;
+  --h-rwd-text: 36px;
+  --body-text: 24px;
+  --news-text: 16px;
+
+  --font-type: Monserrat;
+
+  --font-color: white;
+  --font-color-2: #114d63;
+
+  --hover-animation: 0.3s;
+  --hover-scale: 1.05;
+  --parallax-gradient-1: #d0eaf4;
+  --parallax-gradient-2: #a7ddf0;
+  --parallax-gradient-3: #75ccec;
+  --parallax-gradient-4: #00b4e5;
+  --parallax-gradient-5: #0083bf;
+
+  --night-sky: #001d3f;
+  --night-sky-2: #082341;
+  --night-sky-3: #004764;
+
+  --h-p: 50px;
+  --h-p-rl: 20px;
+  --h-p-tb: 200px;
+}
+
+/* Component CSS customize */
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* User CSS customize */
+
+.root {
+  background-color: #000 !important;
+}
+
+.bunny-in-row {
+  width: 1400px !important;
+}
+
+.bunny-split {
+  flex: 1;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.bunny-mark {
+  max-width: 1000px;
+  height: 500px;
+  background-color: #353535;
+  border-radius: 20px;
+}
+
+/* Antd CSS customize */
+
+.ant-col {
+  position: relative;
+  box-sizing: border-box;
+}
+.ant-row {
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 650px) {
+  .bunny-mark {
+    max-width: 1000px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bunny-mark {
+    max-width: 1000px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .bunny-mark {
+    max-width: 1000px;
+    height: 150px;
+  }
+}

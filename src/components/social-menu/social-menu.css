@@ -1,0 +1,12 @@
+.social-menu{
+    font-size: 30px;
+    gap: 30px;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.nft-calendar {
+    width: 50px;
+    max-width: 50px;
+}

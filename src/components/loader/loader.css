@@ -1,0 +1,12 @@
+#loader-wrapper {
+    background-color: white;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}

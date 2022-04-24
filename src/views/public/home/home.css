@@ -1,0 +1,1196 @@
+/* Landing Section CSS style */
+
+#home-view {
+    font-family: var(--font-family);
+}
+
+#home-view #landing-section {
+    background-color: #000000;
+    position: relative;
+    width: 100%;
+    min-height: 1010px;
+    padding: 0px var(--h-p-rl);
+}
+
+
+#home-view #landing-section #banner-video {
+    position: absolute;
+    width: 100%;
+    min-height: 1000px;
+    z-index: 2;
+    object-fit: cover;
+}
+
+#home-view #landing-section * {
+    position: relative;
+    text-transform: uppercase;
+    z-index: 3;
+    color: var(--font-color);
+    font-size: var(--header-text);
+    font-weight: var(--bold-text);
+}
+
+#home-view #landing-section h1 {
+    margin-top: 120px;
+}
+
+.banner-text {
+    margin-top: 270px;
+}
+
+#home-view #landing-section #connect-btn {
+    max-width: 350px;
+    cursor: pointer;
+    transition: var(--hover-animation);
+}
+
+#home-view #landing-section #connect-btn:hover {
+    transform: scale(1.05);
+}
+
+#home-view #landing-section #connect-discord {
+    position: absolute !important;
+    width: 250px;
+    right: 5vw;
+    bottom: 20px;
+    cursor: pointer;
+    z-index: 5;
+    transition: var(--hover-animation);
+
+}
+
+#home-view #landing-section #connect-discord:hover {
+    transform: scale(1.05);
+}
+
+
+/* Parallax Section CSS style */
+
+#home-view #no-video-section {
+    background-color: #000000;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    font-size: var(--header-text);
+}
+
+
+/* Parallax Section CSS style */
+
+#home-view #parallax-section {
+    width: 100%;
+    height: 100%;
+    padding: var(--h-p-tb) var(--h-p-rl);
+    background: linear-gradient(var(--parallax-gradient-1), var(--parallax-gradient-2), var(--parallax-gradient-3), var(--parallax-gradient-4), var(--parallax-gradient-5));
+}
+
+#home-view .parallax-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home-view #parallax-section .bunny-in-row {
+    display: flex;
+    flex-direction: column;
+    row-gap: 400px;
+}
+
+#home-view #parallax-section .parallax-text {
+    max-width: 450px;
+    word-wrap: break-word;
+    word-break: break-all;
+    color: var(--font-color-2);
+    font-size: var(--body-text);
+    font-weight: var(--semi-bold);
+}
+
+#home-view #parallax-section .parallax-img {
+    width: 600px;
+}
+
+#home-view #parallax-section #parallax-box {
+    height: 770px;
+}
+
+#home-view #parallax-section .parallax-layer {
+    position: absolute;
+}
+
+#home-view #parallax-section #ufo-top {
+    max-width: 350px;
+}
+
+#home-view #parallax-section #ufo-light {
+    max-width: 500px;
+}
+
+#home-view #parallax-section #bunny-jumping {
+    max-width: 450px;
+    bottom: 0px;
+    right: 70px;
+}
+
+
+/* Night Sky Section Start */
+
+#home-view #night-sky {
+    background: linear-gradient(#000000, #222222) !important;
+    padding: var(--h-p-tb) var(--h-p-rl);
+}
+
+
+/*  Team Section */
+
+#home-view #night-sky #team-section h1 {
+    text-transform: uppercase;
+    color: white;
+    font-size: var(--header-text);
+    font-weight: var(--bold-text);
+    padding-bottom: var(--h-p);
+    padding-top: var(--h-p-tb);
+}
+
+#home-view #night-sky #team-list {
+    row-gap: 100px;
+    column-gap: 200px;
+    max-width: 1200px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#home-view #night-sky #team-list li {
+    border: 3px solid transparent;
+    outline: 1px solid #ffffff;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+#home-view #night-sky #team-list img {
+    max-width: 400px;
+    height: 300px;
+}
+
+
+/*  Fraction Section */
+
+#home-view #night-sky #fraction-section #fraction-item-carousel {
+    max-width: 750px;
+    padding: 0px 10px;
+}
+
+#home-view #night-sky #fraction-section .slick-slider {
+    width: 100%;
+}
+
+#home-view #night-sky #fraction-section .slick-slide {
+    padding: 10px;
+}
+
+#home-view #night-sky #fraction-section #fraction-board {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--h-p-rl);
+}
+
+#home-view #night-sky #fraction-section .fraction-item {
+    max-width: 125px;
+    height: auto;
+    cursor: pointer;
+    transition: var(--hover-animation);
+}
+
+#home-view #night-sky #fraction-section .fraction-item:hover {
+    transform: scale(1.05);
+}
+
+#home-view #night-sky #fraction-section #fraction-layer {
+    max-width: 400px;
+    max-height: 380px;
+    bottom: 50px;
+    position: absolute;
+}
+
+/* Journey Section */
+
+#home-view #roadmap-section h1:first-child {
+    text-transform: uppercase;
+    color: white;
+    font-size: var(--header-text);
+    font-weight: var(--bold-text);
+    padding-bottom: var(--h-p);
+    padding-top: var(--h-p-tb) !important;
+}
+
+#home-view #roadmap-section #galaxy-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+#home-view #roadmap-section .journey-txt {
+    border: 3px solid #333333;
+    color: white;
+    height: 320px;
+    overflow-y: auto;
+    max-width: 550px;
+    position: absolute;
+    background-image: url(../../../assets/image/roadmap/Roadmap\ screen.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 60px 40px 60px 40px !important;
+    text-align: left;
+    right: 0px;
+    display: none;
+    word-break: break-all;
+}
+
+#home-view #roadmap-section .journey-txt h1 {
+    font-size: var(--header-text);
+    font-weight: var(--bold-text);
+    padding: 0px !important;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1rem;
+}
+
+#home-view #roadmap-section .planet {
+    position: absolute;
+}
+
+#home-view #roadmap-section .starbtn {
+    position: absolute;
+    z-index: 7;
+    cursor: pointer;
+    transition: all 0.5s;
+    animation: revolve 5s infinite linear;
+}
+
+#home-view #roadmap-section .headline {
+    position: absolute;
+    z-index: 8;
+    color: white;
+    font-size: var(--h-rwd-text);
+}
+
+#home-view #roadmap-section .meteor {
+    position: absolute;
+    z-index: 7;
+}
+
+#home-view #roadmap-section #meteor1 {
+    left: 0px;
+    top: 0px;
+    transform: translate(0px, -200px);
+}
+
+#home-view #roadmap-section #meteor2 {
+    right: 0px;
+    transform: translate(100px, 0px);
+    max-width: 100px;
+}
+
+#home-view #roadmap-section #meteor3 {
+    bottom: 0px;
+    transform: translate(-300px, 100px);
+    max-width: 100px;
+}
+
+#home-view #roadmap-section #planet1 {
+    transform: translate(-100px, -150px);
+    max-width: 300px;
+    z-index: 4;
+}
+
+#home-view #roadmap-section #star-btn-1 {
+    top: -170px;
+    left: 480px;
+    width: 70px;
+    z-index: 4;
+}
+
+
+#home-view #roadmap-section #headline1 {
+    transform: translate(-170px, -220px);
+}
+
+#home-view #roadmap-section #planet2 {
+    left: 0px;
+    bottom: 100px;
+    max-width: 250px;
+    z-index: 2;
+}
+
+#home-view #roadmap-section #star-btn-2 {
+    left: 120px;
+    bottom: 90px;
+    z-index: 5;
+}
+
+#home-view #roadmap-section #headline2 {
+    left: 120px;
+    bottom: 40px;
+}
+
+#home-view #roadmap-section #planet3 {
+    right: 0px;
+    top: 0px;
+    transform: translate(-150px, -120px);
+    max-width: 150px;
+    z-index: 4;
+}
+
+#home-view #roadmap-section #star-btn-3 {
+    right: 150px;
+    top: -110px;
+    max-width: 40px;
+}
+
+#home-view #roadmap-section #headline3 {
+    right: 0px;
+    top: 0px;
+    transform: translate(0px, -120px);
+}
+
+#home-view #roadmap-section #planet4 {
+    bottom: -100px;
+    max-width: 250px;
+    z-index: 4;
+}
+
+#home-view #roadmap-section #star-btn-4 {
+    bottom: 0px;
+    left: 550px;
+}
+
+#home-view #roadmap-section #headline4 {
+    bottom: 0px;
+    transform: translate(-120px, 40px)
+}
+
+#home-view #roadmap-section #planet5 {
+    right: 0px;
+    bottom: 150px;
+    max-width: 200px;
+    z-index: 4;
+}
+
+#home-view #roadmap-section #star-btn-5 {
+    right: 50px;
+    bottom: 310px;
+}
+
+#home-view #roadmap-section #headline5 {
+    right: 0px;
+    bottom: 150px;
+    transform: translate(90px, -180px);
+}
+
+#home-view #roadmap-section #galaxy {
+    width: 85%;
+    height: auto;
+    position: relative;
+    z-index: 3;
+}
+
+.dark-jungle {
+    opacity: 0.5;
+}
+
+.about-text {
+    padding: 10px;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    text-align: center;
+    color: #ffffff;
+    font-size: 1rem;
+    /* word-break: break-all; */
+    max-height: 450px;
+    overflow-y: inherit;
+}
+
+.team-title {
+    margin-top: 15%;
+    margin-bottom: 10%;
+    width: 500px;
+}
+
+.roadmap-title {
+    width: 500px;
+    margin-top: 15%;
+    margin-bottom: 0%;
+}
+
+.disconnect-account {
+    cursor: pointer;
+}
+
+.mint-section {
+    background-color: #000000;
+    /* position: relative; */
+}
+
+/*Mint Animation*/
+.mint-box {
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 2px solid #ffffff;
+    color: white;
+    padding: 20px;
+    max-width: 80% !important;
+    min-width: 300px;
+    width: 80% !important;
+}
+
+.mint-box:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.mint-box:hover:before {
+    left: -50%;
+    transform: skewX(-5deg);
+}
+
+.mint-box:hover .mint-button {
+    z-index: 999;
+    opacity: 1;
+}
+
+.mint-box:hover .mint-count {
+    z-index: 999;
+    opacity: 1;
+}
+
+.mint-box .content {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border: 1px solid #f0a591;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(9, 0, 0, 0.5);
+
+}
+
+.mint-box img::selection {
+    background-color: transparent;
+}
+
+.mint-box span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+.mint-box span:nth-child(1) {
+    transform: rotate(0deg);
+}
+
+.mint-box span:nth-child(2) {
+    transform: rotate(90deg);
+}
+
+.mint-box span:nth-child(3) {
+    transform: rotate(180deg);
+}
+
+.mint-box span:nth-child(4) {
+    transform: rotate(270deg);
+}
+
+.mint-box span:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #fafafa;
+    animation: animate 4s linear infinite;
+}
+
+.mint-button {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    top: 45%;
+    left: 30%;
+    width: 40%;
+    /* height: 50px;
+     */
+    height: fit-content;
+    cursor: pointer;
+    z-index: 999;
+    border: 2px solid #ffffff;
+    background-color: #000000;
+    transition: 0.4s;
+    font-size: 20px;
+}
+
+.mint-count {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    top: 40%;
+    left: 5%;
+    width: 90%;
+    height: 50px;
+    cursor: pointer;
+    z-index: 999;
+    transition: 0.4s;
+}
+
+.ant-slider-handle {
+    width: 60px;
+    height: 60px;
+    /* background-color: transparent; */
+    border: none;
+    border-radius: 0%;
+    outline: none;
+    box-shadow: none !important;
+    background: url(../../../assets/image/mint/cursor.png);
+    background-size: 100% 100%;
+    top: -50px;
+}
+/* 
+.roadmap-title {
+    font-size: medium;
+} */
+
+@keyframes animate {
+    0% {
+        transform: scaleX(0);
+        transform-origin: left;
+    }
+
+    50% {
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+
+    50.1% {
+        transform: scaleX(1);
+        transform-origin: right;
+
+    }
+
+    100% {
+        transform: scaleX(0);
+        transform-origin: right;
+
+    }
+}
+
+
+/* Responsive */
+
+@media screen and (max-width:920px) {
+    #connect-discord {
+        left: auto !important;
+        right: auto !important;
+    }
+}
+
+@media screen and (max-width:610px) {
+    #home-view #landing-section h1 {
+        font-size: var(--h-rwd-text);
+    }
+
+    #home-view #video-section h1 {
+        font-size: var(--h-rwd-text);
+    }
+
+    #home-view #landing-section #connect-btn {
+        max-width: 250px;
+    }
+}
+
+
+@media screen and (max-width:1090px) {
+
+    #home-view #parallax-section .parallax-row {
+        flex-direction: column;
+    }
+
+    #home-view #parallax-section .parallax-text {
+        order: 2;
+    }
+
+    #home-view #parallax-section .parallax-img {
+        order: 1;
+    }
+
+    #home-view #parallax-section .bunny-in-row {
+        row-gap: 150px;
+    }
+
+    #home-view #parallax-section .parallax-text {
+        padding-top: 100px;
+    }
+}
+
+
+@media screen and (max-width:660px) {
+    #home-view #parallax-section {
+        padding: 150px 20px;
+    }
+
+    #home-view #parallax-section #parallax-box {
+        height: 530px;
+    }
+
+    #home-view #parallax-section #bunny-jumping {
+        max-width: 300px;
+        left: 25vw;
+    }
+
+    #home-view #parallax-section #ufo-top {
+        max-width: 200px;
+        left: 15vw;
+    }
+
+    #home-view #parallax-section #ufo-light {
+        max-width: 300px;
+        top: 2vh;
+        left: 18vw;
+    }
+
+    #home-view #parallax-section .bunny-in-row {
+        row-gap: 100px;
+    }
+
+    #home-view #parallax-section .parallax-text {
+        padding-top: 50px;
+    }
+}
+
+
+
+
+@media screen and (max-width:470px) {
+    #home-view #parallax-section #parallax-box {
+        height: 420px;
+    }
+
+    #home-view #parallax-section #bunny-jumping {
+        max-width: 250px;
+        bottom: 0px;
+    }
+
+    #home-view #parallax-section #ufo-top {
+        max-width: 200px;
+    }
+
+    #home-view #parallax-section #ufo-light {
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    #home-view #parallax-section #parallax-box {
+        height: 380px;
+    }
+
+    #home-view #parallax-section #bunny-jumping {
+        max-width: 200px;
+        left: 26vw;
+        bottom: 20px;
+    }
+
+    #home-view #parallax-section #ufo-top {
+        max-width: 140px;
+    }
+
+    #home-view #parallax-section #ufo-light {
+        max-width: 180px;
+        left: 20vw;
+    }
+
+    #home-view #team-section h1 {
+        font-size: 32px !important;
+    }
+}
+
+
+@media screen and (max-width:360px) {
+    #home-view #parallax-section #parallax-box {
+        height: 320px;
+    }
+
+    #home-view #parallax-section #bunny-jumping {
+        max-width: 180px;
+        left: 21vw;
+        bottom: 0px;
+    }
+
+    #home-view #parallax-section #ufo-top {
+        max-width: 180px;
+        left: 10vw;
+    }
+
+    #home-view #parallax-section #ufo-light {
+        max-width: 180px;
+        left: 15vw;
+    }
+}
+
+
+
+@media screen and (max-width:1150px) {
+    #home-view #night-sky #team-list {
+        max-width: 900px;
+    }
+}
+
+
+
+@media screen and (max-width:750px) {
+    #home-view #night-sky #team-list {
+        max-width: 600px;
+    }
+}
+
+
+@media screen and (max-width:830px) {
+    #home-view #night-sky #fraction-section #fraction-layer {
+        max-width: 350px;
+        bottom: 45px;
+    }
+}
+
+@media screen and (max-width:730px) {
+    #home-view #night-sky #fraction-section #fraction-layer {
+        max-width: 300px;
+        bottom: 40px;
+    }
+}
+
+@media screen and (max-width:630px) {
+    #home-view #night-sky #fraction-section #fraction-layer {
+        max-width: 250px;
+        bottom: 30px;
+    }
+}
+
+@media screen and (max-width:530px) {
+    #home-view #night-sky #fraction-section #fraction-layer {
+        max-width: 200px;
+        bottom: 25px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    #home-view #night-sky #fraction-section #fraction-layer {
+        max-width: 150px;
+        bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width:330px) {
+    #home-view #night-sky #fraction-section #fraction-layer {
+        max-width: 120px;
+        bottom: 15px;
+    }
+}
+
+
+
+@media screen and (max-width:1640px) {
+    #home-view #roadmap-section #galaxy-box {
+        max-width: 1200px;
+    }
+
+    #home-view #roadmap-section #galaxy {
+        max-width: 900px;
+    }
+
+    #home-view #roadmap-section #planet1 {
+        max-width: 200px;
+        transform: translate(-100px, -100px);
+    }
+
+    #home-view #roadmap-section #star-btn-1 {
+        top: -120px;
+        width: 50px;
+    }
+
+    #home-view #roadmap-section #planet2 {
+        left: 50px;
+        bottom: 100px;
+        max-width: 200px;
+    }
+
+    #home-view #roadmap-section #star-btn-2 {
+        left: 170px;
+        bottom: 90px;
+    }
+
+    #home-view #roadmap-section #planet4 {
+        bottom: -80px;
+        max-width: 200px;
+    }
+
+    #home-view #roadmap-section #star-btn-4 {
+        left: 480px;
+    }
+
+    #home-view #roadmap-section #planet5 {
+        right: 100px;
+        bottom: 80px;
+        max-width: 170px;
+    }
+
+    #home-view #roadmap-section #star-btn-5 {
+        right: 120px;
+        bottom: 210px;
+    }
+
+    #home-view #roadmap-section #meteor1 {
+        max-width: 250px;
+        transform: translate(50px, -150px);
+    }
+
+    #home-view #roadmap-section #meteor2 {
+        transform: translate(0px, 0px);
+        max-width: 100px;
+    }
+}
+
+@media screen and (max-width: 1530px) {
+    #no-video-section div, .collection-slider, .about-text {
+
+        display: flex;
+        width: 100%;
+    }
+    .collection-slider {
+        min-height: 600px;
+    }
+    #no-video-section {
+        position: relative;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .about-text {
+        display: none !important;
+        position: absolute;
+        font-size: 1vw;
+    }
+
+    #night-sky {
+        padding-top: 0 !important;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .about-text {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1240px) {
+
+    .carousel-root {
+        justify-content: center;
+    }
+
+    .collection-slider {
+        max-width: 80% !important;
+        width: 80% !important;
+    }
+
+    .about-text {
+        /* display: none !important; */
+        /* text-align: left;
+        background-color: rgba(0, 0, 0, 0.7);
+        max-width: 80% !important;
+        width: 80%;
+        font-size: x-small; */
+    }
+
+    #home-view #roadmap-section #galaxy-box {
+        max-width: 900px;
+    }
+
+    #home-view #roadmap-section #planet1 {
+        max-width: 180px;
+        transform: translate(-100px, -70px);
+    }
+
+    #home-view #roadmap-section #star-btn-1 {
+        width: 35px;
+        top: -60px;
+        left: 390px;
+    }
+
+    #home-view #roadmap-section #planet2 {
+        left: 0px;
+        bottom: 60px;
+        max-width: 150px;
+    }
+
+    #home-view #roadmap-section #star-btn-2 {
+        left: 80px;
+        bottom: 60px;
+        width: 30px;
+    }
+
+    #home-view #roadmap-section #planet3 {
+        transform: translate(-150px, -90px);
+        max-width: 100px;
+    }
+
+    #home-view #roadmap-section #star-btn-3 {
+        right: 150px;
+        top: -90px;
+        max-width: 30px;
+    }
+
+    #home-view #roadmap-section #planet4 {
+        bottom: -60px;
+        max-width: 150px;
+        z-index: 4;
+    }
+
+    #home-view #roadmap-section #star-btn-4 {
+        left: 360px;
+        width: 30px;
+    }
+
+    #home-view #roadmap-section #planet5 {
+        right: 30px;
+        bottom: 80px;
+        max-width: 130px;
+    }
+
+    #home-view #roadmap-section #star-btn-5 {
+        right: 40px;
+        bottom: 180px;
+        width: 30px;
+    }
+
+    #home-view #roadmap-section #meteor1 {
+        max-width: 200px;
+        transform: translate(50px, -120px);
+    }
+
+    #home-view #roadmap-section #meteor2 {
+        transform: translate(0px, 0px);
+    }
+}
+
+@media screen and (max-width:940px) {
+    #home-view #roadmap-section #galaxy-box {
+        max-width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        row-gap: 230px;
+    }
+
+    #home-view #roadmap-section #galaxy {
+        display: none;
+    }
+
+    #home-view #roadmap-section .planet {
+        position: unset;
+        transform: translate(0px, 0px) !important;
+        max-width: 150px !important;
+    }
+
+    #home-view #roadmap-section .meteor {
+        display: none;
+    }
+
+    #home-view #roadmap-section #planet1 {
+        order: 1;
+    }
+
+    #home-view #roadmap-section #star-btn-1 {
+        left: 130px;
+        top: 55px;
+    }
+
+    #home-view #roadmap-section #planet2 {
+        order: 4;
+    }
+
+    #home-view #roadmap-section #journey-txt-2 {
+        top: 380px;
+    }
+
+    #home-view #roadmap-section #star-btn-2 {
+        left: 130px;
+        top: 430px;
+    }
+
+    #home-view #roadmap-section #planet3 {
+        order: 5;
+    }
+
+    #home-view #roadmap-section #journey-txt-3 {
+        top: 760px;
+    }
+
+    #home-view #roadmap-section #star-btn-3 {
+        left: 130px;
+        top: 810px;
+    }
+
+    #home-view #roadmap-section #planet4 {
+        order: 2;
+    }
+
+    #home-view #roadmap-section #journey-txt-4 {
+        top: 1140px;
+    }
+
+    #home-view #roadmap-section #star-btn-4 {
+        left: 120px;
+        top: 1190px;
+    }
+
+    #home-view #roadmap-section #planet5 {
+        order: 3;
+    }
+
+    #home-view #roadmap-section #journey-txt-5 {
+        top: 1520px;
+    }
+
+    #home-view #roadmap-section #star-btn-5 {
+        left: 130px;
+        top: 1560px;
+    }
+
+    #home-view #roadmap-section .journey-txt {
+        display: block;
+    }
+
+    .starbtn {
+        display: none;
+    }
+}
+
+@media screen and (max-width:760px) {
+    /* #home-view #roadmap-section #galaxy-box {
+        justify-content: center;
+        align-items: center;
+        row-gap: 390px;
+    } */
+
+    #galaxy-box {
+        margin-top: 100px !important;
+        margin-bottom: 100px !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .journey-txt {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        position: unset !important;
+    }
+    /* #home-view #roadmap-section .starbtn {
+        left: auto !important;
+        right: auto !important;
+    }
+
+    #home-view #roadmap-section #star-btn-1 {
+        top: 125px;
+    }
+
+    #home-view #roadmap-section #star-btn-2 {
+        top: 670px;
+    }
+
+    #home-view #roadmap-section #star-btn-3 {
+        top: 1210px;
+    }
+
+    #home-view #roadmap-section #star-btn-4 {
+        top: 1730px;
+    }
+
+    #home-view #roadmap-section #star-btn-5 {
+        top: 2265px;
+    }
+
+    #home-view #roadmap-section .journey-txt {
+        left: auto !important;
+        right: auto !important;
+    }
+
+    #home-view #roadmap-section #journey-txt-1 {
+        top: 180px;
+    }
+
+    #home-view #roadmap-section #journey-txt-2 {
+        top: 730px;
+    }
+
+    #home-view #roadmap-section #journey-txt-3 {
+        top: 1260px;
+    }
+
+    #home-view #roadmap-section #journey-txt-4 {
+        top: 1780px;
+    }
+
+    #home-view #roadmap-section #journey-txt-5 {
+        top: 2330px;
+    } */
+    
+    .journey-txt {
+        display: flex;
+    }
+
+    img.planet, img.starbtn {
+        display: none;  
+    }
+    /* .journey-txt {
+        display: flex;
+    }
+
+    #roadmap-section {
+        overflow-y: scroll;
+        margin-top: 20px;
+        padding: 10px;
+        border: 1px solid #ffffff;
+    } */
+    #night-sky {
+        padding-bottom: 0px !important;
+    }
+} 
+
+@keyframes revolve {
+    0% {
+        transform: rotate(0deg) translate(0px, 0px);
+    }
+
+    100% {
+        transform: rotate(359deg) translate(0px, 0px);
+    }
+}
